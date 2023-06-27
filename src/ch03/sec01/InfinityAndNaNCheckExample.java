@@ -14,6 +14,7 @@ public class InfinityAndNaNCheckExample {
         //double z = x % y;
         // 잘못된 코드, 13과 14라인을 번갈아가며 실행해보자.
         System.out.println(z + 2);
+        System.out.println("dd");
 
         // 알맞은 코드
         if (Double.isInfinite(z) || Double.isNaN(z)) { // Infinity or NaN 체크해주는 함수
